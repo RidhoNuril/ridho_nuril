@@ -122,6 +122,14 @@ section.about {
 			rgba(17, 17, 17, 1) 45%);
 }
 
+.img-about{
+	background-image: url('../img/img-about.png');
+	background-size: cover;
+	background-position: top;
+	background-repeat: no-repeat;
+	filter: grayscale(80%) contrast(120%) brightness(40%);
+}
+
 .title-about::before,
 .title-project::before {
 	content: " ";
@@ -171,13 +179,6 @@ section.about {
 	border: 2px solid var(--bg-red);
 }
 
-.img-about{
-	background-image: url('/img/img-about.png');
-	background-size: cover;
-	background-position: top;
-	background-repeat: no-repeat;
-	filter: grayscale(80%) contrast(120%) brightness(40%);
-}
 
 /* SECTION PROJECT */
 
